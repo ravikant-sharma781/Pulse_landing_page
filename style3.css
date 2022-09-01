@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #00ad6a;
+}
+
+button {
+    background-color: #1fe374;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    color: #1fe374;
+    text-shadow: 1px 0.5px #00ad6a;
+    border: none;
+    border-radius: 50px;
+    font-size: 50px;
+}
+/* Section 1 Starts here*/
+
+.sec1 {
+    background-color: #1fe3742b;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.container1 div {
+    margin: 0px auto;
+}
+
+.container1 div a {
+    font-size: 15px;
+    color: #1fe374;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.container1 div a:hover {
+    color: black;
+    font-size: 20px;
+}
+
+.container2 {
+    width: 40%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container2 h1 {
+    font-size: 40px;
+
+}
+
+.container2 p {
+    font-size: 15px;
+    color: rgba(51, 51, 51, 0.646);
+}
+
+.container3 {
+    display: flex;
+    margin: 100px auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 div {
+    width: 350px;
+    margin: auto;
+    height: 650px;
+    background-color: #fcfcfc;
+    border: 1px solid #00ad6a;
+    border-radius: 22px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+.container3 div:hover {
+    transform: scale(1.15);
+}
+
+.container3 div ul li {
+    font-size: 13px;
+    margin: 10px 0px;
+
+}
+
+.container3 .box2 .heading4 {
+    margin: 20px 0 30px 0;
+    text-align: center;
+    height: 50px;
+    color: #00ad6a;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    letter-spacing: 1.5px;
+}
+
+.container3 .box2 h1 {
+    text-align: center;
+    color: #00ad6a;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.box1 {
+    padding: 20px 30px;
+}
+
+.box1 h3 {
+    color: #00ad6a;
+    font-size: bold;
+}
+
+.box2 {
+    padding: 0px 30px;
+}
+
+.box2 ul {
+    list-style-type: none;
+}
+
+.tick {
+    color: #00ad6a;
+}
+
+.box2 .para1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(138, 137, 137, 0.785);
+    letter-spacing: 3px;
+}
+
+.box2 button {
+    margin: 20px 0px 20px 60px;
+    cursor: pointer;
+}
+
+
+.box3 {
+    padding: 0px 30px;
+}
+
+.box3 ul {
+    list-style-type: none;
+}
+
+.box3para1 {
+    padding: 10px 20;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.box3para2 {
+    text-align: center;
+    color: #00ad6a;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 30px 0px 0px 0px;
+}
+
+.box3para3 {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(138, 137, 137, 0.785);
+    letter-spacing: 3px;
+}
+
+.box3button {
+    margin: 20px 0px 20px 60px;
+    cursor: pointer;
+}
+
+/* Cards section end here*/
+
+.container4 {
+    width: 35%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Section 2 starts here*/
+
+.sec2 {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.gridbox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.gridbox div {
+    margin: 50px 0px;
+}
+
+.sec2 h4 {
+    font-size: 50px;
+}
+
+/* Footer starts here*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    color: #00ad6a;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.footerlogo p {
+    margin-top: 100px;
+    font-size: 12px;
+    color: white;
+}
+
+.logo2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.row {
+    display: flex;
+    width: 50%;
+}
+
+.col{
+    margin: 0px auto;
+}
+
+.row h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.row a {
+    color: #1fe374;
+    transition: 0.5s all ease;
+}
+
+.row a:hover {
+    color: white;
+    margin-left: 10px;
+}
+
+.row li {
+    list-style-type: none;
+}
